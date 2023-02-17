@@ -1,5 +1,2 @@
-c
-main
-*.out
-*.o
+a.out
 .vscode
