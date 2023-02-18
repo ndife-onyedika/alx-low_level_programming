@@ -15,6 +15,7 @@ int main(void)
 	int c;
 	int d;
 	int e;
+
 	for (c = 0; c < 8; c++)
 	{
 		for (d = c + 1; d < 9; d++)
