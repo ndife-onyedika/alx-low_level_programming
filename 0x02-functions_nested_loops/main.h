@@ -3,8 +3,6 @@
 
 #include <stdio.h>
 
-#endif
-
 void print_alphabet(void)
 {
 	int c;
@@ -15,3 +13,5 @@ void print_alphabet(void)
 	}
 	putchar('\n');
 }
+
+#endif
