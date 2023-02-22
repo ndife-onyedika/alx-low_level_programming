@@ -6,7 +6,7 @@
  *
  * @n: integer
  *
- * Return: 0
+ * Return: int
  */
 
 int _abs(int n)
