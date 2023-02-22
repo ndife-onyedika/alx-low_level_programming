@@ -9,5 +9,5 @@ int add(int x, int y)
 {
 	int _add = x + y;
 
-	return (_add + '0');
+	return (_add);
 }
