@@ -6,17 +6,19 @@
  */
 int main(void)
 {
-	int i, n = 50;
-	int t1 = 0, t2 = 1;
-	int nextTerm = t1 + t2;
-
-	for (i = 3; i <= n; ++i)
+	int inc;
+	unsigned long n1 = 0, n2 = 1, n3;
+	for (inc = 0; inc < 50; inc++)
 	{
-		printf("%d, ", nextTerm);
-		t1 = t2;
-		t2 = nextTerm;
-		nextTerm = t1 + t2;
+		n3 = n1 + n2;
+		printf("%lu", n3);
+		n1 = n2;
+		n2 = n3;
+
+		if (inc == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("\n");
 	return (0);
 }
