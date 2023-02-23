@@ -2,3 +2,5 @@ a.out
 .vscode
 _putchar.c
 *main.c
+!0x03-debugging/*main.c
+positive_or_negative.c
