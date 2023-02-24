@@ -2,7 +2,7 @@
 
 /**
  * print_line - draws straight line in the terminal
- *
+ * @n: number of times (integer)
  * Return: 0 or 1
  */
 void print_line(int n)
