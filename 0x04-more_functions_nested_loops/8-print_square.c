@@ -7,15 +7,21 @@
  */
 void print_square(int size)
 {
-	int len, hash;
+	int inc1, inc2;
 
 	if (size > 0)
 	{
-		for (len = 0; len < size; len++)
+		for (inc1 = 0; inc1 < size; inc1++)
 		{
-			for (hash = 0; hash < size; hash++)
+			for (inc2 = 0; inc2 < (size - 1); inc2++)
 				_putchar('#');
+
+			_putchar('#');
 			_putchar('\n');
 		}
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
