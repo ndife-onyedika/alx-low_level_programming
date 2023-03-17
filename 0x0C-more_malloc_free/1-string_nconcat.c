@@ -8,6 +8,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
+	int i = 0;
 	unsigned int space;
 	unsigned int s1len = 0, s2len = 0;
 	char *mal_s1;
@@ -23,7 +24,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else
 		space = n;
 
-	while (s1[])
+	while (s1[i])
 	{
 		/* code */
 	}
