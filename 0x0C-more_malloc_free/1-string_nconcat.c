@@ -1,10 +1,10 @@
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * *string_nconcat - a function that concatenates two strings.
  * @s1: String 1
  * @s2: String 1
  * @n: slice index for s2
+ * Return: String
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
