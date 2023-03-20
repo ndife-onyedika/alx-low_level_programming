@@ -1,5 +1,5 @@
-#ifndef PREPROCESSOR
-#define PREPROCESSOR
+#ifndef SIZE_MACRO
+#define SIZE_MACRO
 
 #define SIZE 1024
 
